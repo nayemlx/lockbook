@@ -1,4 +1,4 @@
-<h1>LockBook</h1>
+<h1 style='font-size:50px;'>LockBook</h1>
 
  <h2>Description</h2>
     <p>This project is a Node.js backend application using Express.js, EJS for templating, MongoDB for the database, Passport.js for authentication, and Nodemailer for email handling. It provides a secure and functional backend with user authentication and email capabilities.</p>
