@@ -27,31 +27,31 @@
             <h2>Project Structure</h2>
     <pre><code>project-folder
 
-     <h2>Installation</h2>
+   <h2>Installation</h2>
 
 <h3>Steps</h3>
 <ol>
     <li>Clone the repository:
-        <pre><code>git clone &lt;repository-url&gt;</code></pre>
+        <pre><code>git clone &lt;repository-url&gt;
     </li>
     <li>Navigate to the repository folder:
-        <pre><code>cd &lt;repository-folder&gt;</code></pre>
+        <pre><code>cd &lt;repository-folder&gt;
     </li>
     <li>Install dependencies:
-        <pre><code>npm install</code></pre>
+        <pre><code>npm install
     </li>
     <li>Configure <code>.env</code> file with the following values:
         <pre><code>PORT=3000
 MONGO_URI=mongodb://localhost:27017/your-database-name
 SESSION_SECRET=your-session-secret
 EMAIL_USER=your-email@example.com
-EMAIL_PASS=your-email-password</code></pre>
+EMAIL_PASS=your-email-password
     </li>
     <li>Start MongoDB (if running locally):
-        <pre><code>mongod</code></pre>
+        <pre><code>mongod
     </li>
     <li>Run the application:
-        <pre><code>npm start</code></pre>
+        <pre><code>npm start
     </li>
 </ol>
 <p>Access the app at <a href="http://localhost:3000">http://localhost:3000</a>.</p>
@@ -65,7 +65,7 @@ EMAIL_PASS=your-email-password</code></pre>
 ├── config          # Configuration files
 ├── app.js          # Entry point of the app
 ├── package.json    # Metadata and dependencies
-└── .env            # Environment variables</code></pre>
+└── .env            # Environment variables
 
 
 <h2>Installation</h2>
