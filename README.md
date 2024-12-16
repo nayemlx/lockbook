@@ -27,6 +27,77 @@
             <h2>Project Structure</h2>
     <pre><code>project-folder
 
+     <h2>Installation</h2>
+
+<h3>Steps</h3>
+<ol>
+    <li>Clone the repository:
+        <pre><code>git clone &lt;repository-url&gt;</code></pre>
+    </li>
+    <li>Navigate to the repository folder:
+        <pre><code>cd &lt;repository-folder&gt;</code></pre>
+    </li>
+    <li>Install dependencies:
+        <pre><code>npm install</code></pre>
+    </li>
+    <li>Configure <code>.env</code> file with the following values:
+        <pre><code>PORT=3000
+MONGO_URI=mongodb://localhost:27017/your-database-name
+SESSION_SECRET=your-session-secret
+EMAIL_USER=your-email@example.com
+EMAIL_PASS=your-email-password</code></pre>
+    </li>
+    <li>Start MongoDB (if running locally):
+        <pre><code>mongod</code></pre>
+    </li>
+    <li>Run the application:
+        <pre><code>npm start</code></pre>
+    </li>
+</ol>
+<p>Access the app at <a href="http://localhost:3000">http://localhost:3000</a>.</p>
+
+<h2>Project Structure</h2>
+<pre><code>project-folder
+├── public          # Static assets (CSS, JS, images)
+├── routes          # API and application routes
+├── views           # EJS templates
+├── models          # Database schemas
+├── config          # Configuration files
+├── app.js          # Entry point of the app
+├── package.json    # Metadata and dependencies
+└── .env            # Environment variables</code></pre>
+
+
+<h2>Installation</h2>
+
+<h3>Steps</h3>
+<ol>
+    <li>Clone the repository:
+        <pre><code>git clone &lt;repository-url&gt;</code></pre>
+    </li>
+    <li>Navigate to the repository folder:
+        <pre><code>cd &lt;repository-folder&gt;</code></pre>
+    </li>
+    <li>Install dependencies:
+        <pre><code>npm install</code></pre>
+    </li>
+    <li>Configure <code>.env</code> file with the following values:
+        <pre><code>PORT=3000
+MONGO_URI=mongodb://localhost:27017/your-database-name
+SESSION_SECRET=your-session-secret
+EMAIL_USER=your-email@example.com
+EMAIL_PASS=your-email-password</code></pre>
+    </li>
+    <li>Start MongoDB (if running locally):
+        <pre><code>mongod</code></pre>
+    </li>
+    <li>Run the application:
+        <pre><code>npm start</code></pre>
+    </li>
+</ol>
+<p>Access the app at <a href="http://localhost:3000">http://localhost:3000</a>.</p>
+
+
 
 <h2>Useful Scripts</h2>
     <ul>
